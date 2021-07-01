@@ -4,7 +4,7 @@
 }
 
 .warning {
-    background-color:aqua;
+    background-color:blue;
 }
 
 table {
@@ -26,6 +26,6 @@ th, td {
     margin: 5px 10px;
     padding: 6px;
 }
-.td-style{
-    background-color: yellow;
-}
+table tr:nth-child(even){
+    background-color:aqua;
+    }
