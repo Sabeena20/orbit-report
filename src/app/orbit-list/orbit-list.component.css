@@ -5,6 +5,7 @@
 
 .warning {
     background-color:blue;
+    font-weight:bold;
 }
 
 table {
@@ -26,6 +27,7 @@ th, td {
     margin: 5px 10px;
     padding: 6px;
 }
-table tr:nth-child(even){
+/* BONUS PART A */
+table tr:nth-child(even){ 
     background-color:aqua;
     }
