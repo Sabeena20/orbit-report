@@ -15,9 +15,7 @@ export class Satellite {
     }
 
     shouldShowWarning(): boolean {
-        // console.log("called");
         if (this.type.toLowerCase() == "space debris") {
-            // console.log("hello");
             return true;
         } else {
             false;

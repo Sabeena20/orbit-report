@@ -1,4 +1,4 @@
-import { Component, OnInit,Input } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Satellite } from '../satellite';
 
 @Component({
@@ -12,70 +12,70 @@ export class OrbitCountComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    
+
 
   }
-    // BONUS PART B
-  totalSpaceDebris() : Number {
+  // BONUS PART B
+  totalSpaceDebris(): Number {
     let count = 0;
     this.satellites.forEach(satellite => {
-      if(satellite.type.toLowerCase() == 'space debris'){
+      if (satellite.type.toLowerCase() == 'space debris') {
         count++;
       }
     });
     return count;
   }
-  totalCommunication() : Number {
+  totalCommunication(): Number {
     let count = 0;
     this.satellites.forEach(satellite => {
-      if(satellite.type.toLowerCase() == 'communication'){
-        count++;
-      }
-    });
-    return count;
-  }
-  
-  totalProbe() : Number {
-    let count = 0;
-    this.satellites.forEach(satellite => {
-      if(satellite.type.toLowerCase() == 'probe'){
+      if (satellite.type.toLowerCase() == 'communication') {
         count++;
       }
     });
     return count;
   }
 
-  totalPositioning() : Number {
+  totalProbe(): Number {
     let count = 0;
     this.satellites.forEach(satellite => {
-      if(satellite.type.toLowerCase() == 'postioning'){
+      if (satellite.type.toLowerCase() == 'probe') {
         count++;
       }
     });
     return count;
   }
 
-  totalSpaceStation() : Number {
+  totalPositioning(): Number {
     let count = 0;
     this.satellites.forEach(satellite => {
-      if(satellite.type.toLowerCase() == 'space station'){
+      if (satellite.type.toLowerCase() == 'postioning') {
         count++;
       }
     });
     return count;
   }
 
-  totalTelescope() : Number {
+  totalSpaceStation(): Number {
     let count = 0;
     this.satellites.forEach(satellite => {
-      if(satellite.type.toLowerCase() == 'telescope'){
+      if (satellite.type.toLowerCase() == 'space station') {
         count++;
       }
     });
     return count;
   }
 
-  
+  totalTelescope(): Number {
+    let count = 0;
+    this.satellites.forEach(satellite => {
+      if (satellite.type.toLowerCase() == 'telescope') {
+        count++;
+      }
+    });
+    return count;
+  }
+
+
 
 
 

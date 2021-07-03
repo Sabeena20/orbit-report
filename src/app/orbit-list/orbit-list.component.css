@@ -1,33 +1,33 @@
-.sortable {
-    cursor: pointer;
-    color: #dd5;
-}
-
-.warning {
-    background-color:blue;
-    font-weight:bold;
-}
-
-table {
-  color:cadetblue;
-  border-radius: 5px;
-  overflow: hidden;
-  margin: 12px 0;
-  min-width:auto;
-  background: #dad8d8;
-}
-
-.header-row {
-    background: #34495E;
-    color: #fff
-}
-
-th, td {
-    text-align: left;
-    margin: 5px 10px;
-    padding: 6px;
-}
-/* BONUS PART A */
-table tr:nth-child(even){ 
-    background-color:aqua;
+    .sortable {
+        cursor: pointer;
+        color: #dd5;
     }
+
+    .warning {
+        background-color:blue;
+        font-weight:bold;
+    }
+
+    table {
+    color:cadetblue;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 12px 0;
+    min-width:auto;
+    background: #dad8d8;
+    }
+
+    .header-row {
+        background: #34495E;
+        color: #fff
+    }
+
+    th, td {
+        text-align: left;
+        margin: 5px 10px;
+        padding: 6px;
+    }
+    /* BONUS PART A */
+    table tr:nth-child(even){ 
+        background-color:aqua;
+        }
